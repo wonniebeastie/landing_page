@@ -85,7 +85,18 @@ div.catch > * {
 
 /*2nd section*/
 
+.info.section {
+    /*Entire section container doesn't need flexbox bc the divs are block-level
+    elements*/
+    text-align: center
+    /*Makes the imgs & text center*/
+}
+
 .info img {
+    width: 160px;
+}
+
+ {
     /*.info > img did not work here because child selectors do not
     select grandbabies (nested under another element) of the parent*/
     max-width: 55%; /*doesn't create a scrollbar when viewport gets too smol*/
