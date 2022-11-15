@@ -2,11 +2,10 @@
     box sizing: border-box;   
 }
 
-html,
 body {
     height: 100vh;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family:  Garamond, serif;
 }
 
 
@@ -29,21 +28,23 @@ body {
 .left {
     display: flex;
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 26px;
     align-items: center;
     gap: 10px;
+    font-weight: 900;
 }
 
 ul {
     display: flex;
-    color: white;
+    color: #E5E7EB;
     font-size: 18px;
     list-style-type: none;
     gap: 20px;
 }
 
+
 img.landscape {
-    max-width: 48%;
+    max-width: 46%;
 }
 
 .section-a {
