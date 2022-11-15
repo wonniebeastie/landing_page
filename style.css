@@ -85,21 +85,20 @@ div.catch > * {
 
 /*2nd section*/
 
-div > .info.section {
+.info {
     /*Entire section container doesn't need flexbox bc the divs are block-level
     elements*/
     text-align: center
     /*Makes the imgs & text center*/
 }
 
-.info img {
+.pair img {
     width: 160px;
-    height: 160px;
 }
 
 .info-containers {
     display: flex;
-
+    max-width: 55%; /*doesn't create a scrollbar when viewport gets too smol*/
 }
 
  {
