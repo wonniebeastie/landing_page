@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+}
+
+img.landscape {
+    max-width: 48%;
+}
+
+.section-a {
+    display: flex;
+}
