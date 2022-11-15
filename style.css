@@ -3,7 +3,7 @@
 }
 
 body {
-
+    height: 100vh;
 }
 
 .header, footer {
@@ -16,6 +16,10 @@ body {
     justify-content: space-between;
     padding-left: 15%;
     padding-right: 15%;
+}
+
+.logo-img {
+    max-width: 10%;
 }
 
 ul {
