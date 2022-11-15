@@ -81,3 +81,16 @@ div.catch > * {
     align-items: flex-start;
    
 }
+
+
+/*2nd section*/
+
+.info img {
+    /*.info > img did not work here because child selectors do not
+    select grandbabies (nested under another element) of the parent*/
+    max-width: 55%; /*doesn't create a scrollbar when viewport gets too smol*/
+    margin: auto; /*centers element horizontally within its container*/
+    border: 3px solid #3882F6;
+    border-radius: 11px; /*rounds the corners of the border*/
+    padding: 15px;
+}
