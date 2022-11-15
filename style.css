@@ -5,28 +5,36 @@
 
 body {
     height: 100vh;
+    overflow: hidden;
     margin: 0;
     font-family:  Garamond, serif;
-   
 }
 
 
-.header, 
+header, 
 footer {
     display: flex;
     background-color: #1F2937;
 }
 
 
-.header {
+header {
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
 }
 
+
+footer {
+    color: #E5E7EB;
+    justify-content: center;
+}
+
+
 .logo-img {
     width: 50px;
 }
+
 
 .left {
     display: flex;
@@ -36,6 +44,7 @@ footer {
     gap: 10px;
     font-weight: 900;
 }
+
 
 ul {
     display: flex;
@@ -47,14 +56,20 @@ ul {
 
 
 img.landscape {
-    max-width: 46%;
+    max-width: 40%;
 }
+
 
 .section {
     display: flex;
 }
 
-footer {
-    color: #E5E7EB;
+
+
+.errythang {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 10%;
 }
