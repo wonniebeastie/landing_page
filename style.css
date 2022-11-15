@@ -73,6 +73,9 @@ img.landscape {
 .catch {
     max-width: 80%;
     margin: 10%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .words {
