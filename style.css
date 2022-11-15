@@ -11,11 +11,19 @@ body {
     background-color: #1F2937;
 }
 
-li {
+
+.header {
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+ul {
+    display: flex;
     color: white;
     font-size: 18px;
     list-style-type: none;
-    display: inline;
+    gap: 20px;
 }
 
 img.landscape {
