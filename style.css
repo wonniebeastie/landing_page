@@ -85,7 +85,7 @@ div.catch > * {
 
 /*2nd section*/
 
-.info.section {
+div > .info.section {
     /*Entire section container doesn't need flexbox bc the divs are block-level
     elements*/
     text-align: center
@@ -94,6 +94,12 @@ div.catch > * {
 
 .info img {
     width: 160px;
+    height: 160px;
+}
+
+.info-containers {
+    display: flex;
+
 }
 
  {
