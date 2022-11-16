@@ -2,8 +2,8 @@
 
 Image Credits
 
-Logo (space.png):
-https://www.freepik.com/free-icon/space_14594469.htm#query=space%20transparent%20white&position=1&from_view=search&track=ais
+Logo (stars.png):
+https://www.freepik.com/free-icon/stars_15613560.htm#query=star&position=9&from_view=search&track=sph
 
 Galaxy (galaxy.jpg):
 Photo by Samuel PASTEUR-FOSSE 

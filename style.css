@@ -37,7 +37,7 @@ footer {
 
 
 .logo-img {
-    width: 50px;
+    width: 26px;
 }
 
 
@@ -103,7 +103,13 @@ ul {
 }
 
 .words button {
+    color: #F9FAF8;
     align-self: flex-start;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
 }
 
 
@@ -125,6 +131,14 @@ ul {
     display: flex;
 }
 
+.explore {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+    margin-top: 32px;
+}
+
+/*
  {
     /*.info > img did not work here because child selectors do not
     select grandbabies (nested under another element) of the parent*/
@@ -133,4 +147,5 @@ ul {
     border: 3px solid #3882F6;
     border-radius: 11px; /*rounds the corners of the border*/
     padding: 15px;
-}
+ }
+ /*
