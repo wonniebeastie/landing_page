@@ -60,18 +60,16 @@ ul {
 }
 
 
+/* 1st Section*/
 
-.catch {
+
+.grabber {
+    display: flex;
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
     font-weight: 900;
-    padding: 10%;
-    height: 30%
-}
-
-div.catch > * {
-    min-height: 
+    
 }
 
 
@@ -80,7 +78,11 @@ div.catch > * {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-   
+}
+
+.landscape {
+    min-width: 80%;
+    width: 70%;
 }
 
 
@@ -100,7 +102,6 @@ div.catch > * {
 
 .info-containers {
     display: flex;
-    max-width: 55%; /*doesn't create a scrollbar when viewport gets too smol*/
 }
 
  {
