@@ -16,7 +16,7 @@ https://www.freepik.com/free-icon/startup_15528331.htm#page=3&query=space&positi
 Alien (alien.png):
 https://www.freepik.com/free-icon/alien_15494513.htm#query=ALIEN&position=36&from_view=search&track=sph
 
-Planet (planets.png):
+Planet (planet.png):
 https://www.freepik.com/free-icon/planets_15460693.htm#page=6&query=space&position=16&from_view=author
 
 Hand holding pen icon (creative.png):
