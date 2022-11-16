@@ -62,29 +62,48 @@ ul {
 
 /* 1st Section*/
 
+.catch {
+    justify-content: center;
+    background-color: #1F2937;
+}
 
 .grabber {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    color: #F9FAF8;
-    font-weight: 900;
-    width: 80%
+    padding-top: 50px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-/*
+.grabber div,
+.grabber img {
+    width: 320px;
+    height: 160px;
+}
 
 .words {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    color: #F9FAF8;
 }
-*/
 
-.galaxy {
-    width: 350px;
+.words h1 {
+    margin: 0;
+    font-weight: 900;
+}
+
+.words p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.words button {
+    align-self: flex-start;
 }
 
 
