@@ -7,6 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family:  Garamond, serif;
+
 }
 
 
@@ -86,6 +87,7 @@ div.catch > * {
 /*2nd section*/
 
 .info {
+    flex-direction: column;
     /*Entire section container doesn't need flexbox bc the divs are block-level
     elements*/
     text-align: center
