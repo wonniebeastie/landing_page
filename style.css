@@ -67,62 +67,67 @@ li:nth-child(1) {
 
 /* 1st Section*/
 
-.catch.section {
+.container {
+    display:flex;
     justify-content: center;
+    align-items: center;
     background-color: #1F2937;
 
+    width: 100%;
+    margin: 80px;
 }
 
 .grabber {
     display: flex;
     background-color: #1F2937;
-    padding-top: 50px;
-    padding-bottom: 80px;
-
     justify-content: center;
     align-items: center;
+    
 
     gap: 10px;
 
-    overflow-y: hidden;
-    min-width: 80%;
-   
-    max-width: 60%;
+    height: 100%; /*prevents overflow*/
 
     
 }
 
 
-.grabber .words {
+.words,
+.galaxy {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     justify-content: center;
     color: #F9FAF8;
-    width: 50%;
-    height: 100%;
+
+
+    width: 400px;
+    height: 200px;
+ 
+}
+
+.galaxy {
 }
 
 
-.grabber .galaxy {
-    width: 50%;
-    height: 100%;
-    overflow-y: hidden;
-    padding: 0
-}
+.words {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .words h1 {
     font-size: 48px;
     margin: 0;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .words p {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 300;
     color: #E5E7EB;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .words button {
