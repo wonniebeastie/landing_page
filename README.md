@@ -1,4 +1,9 @@
 # landing_page
+This was a flexbox project I did for the Odin Project. Had a lot of fun!!
+
+I really like space. :^)
+
+
 
 Image Credits
 
